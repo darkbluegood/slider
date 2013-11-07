@@ -1,0 +1,16 @@
+/*
+ * SLslider version 1.0
+ *
+ * author by DarkBlue
+ * http://www.5code.net
+ * 
+ * Date:2013-9-1
+ *
+ */
+.SLslider-slide-list,.SLslider-prev,.SLslider-next{ position:absolute;top:0; }
+.SLslider-prev{ left:0;z-index:10; }
+.SLslider-next{ right:0;z-index:10; }
+.SLslider-wrapper{ position:relative;overflow: hidden; }
+
+.SLslider-fade-zIndex1{ z-index: 1 }
+.SLslider-fade-zIndex2{ z-index: 2 }
