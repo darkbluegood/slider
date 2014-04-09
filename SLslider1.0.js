@@ -90,6 +90,10 @@
 
 			//初始属性
 			initAttr();
+			
+			if(itemLength <= 1){
+				return false;
+			}
 
 			//幻灯效果
 			if(settings.type == "slide"){
