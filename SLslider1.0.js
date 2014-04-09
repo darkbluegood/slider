@@ -190,8 +190,6 @@
 			marks_el.append(html);
 			_wrapper.append(marks_el);
 
-			marks_el.css("width",settings.width+"px");
-
 			marks_el.find("a").each(function(index){
 				$(this).bind("click",function(event){
 					event.preventDefault();
